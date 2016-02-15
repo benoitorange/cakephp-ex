@@ -367,7 +367,7 @@ class MissingHelperException extends CakeException {
  */
 class MissingDatabaseException extends CakeException {
 
-	protected $_messageTemplate = 'Database connection "%s" could not be found.';
+	protected $_messageTemplate = 'Database connection "%s" could not be found."%s"';
 
 }
 
