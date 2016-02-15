@@ -71,6 +71,7 @@ class DATABASE_CONFIG {
             'database'   => '',
             'prefix'     => '',
             'encoding' => 'utf8',
+			'unix_socket' => '/tmp/mysql.sock',
         );
 
         public $test = array(
