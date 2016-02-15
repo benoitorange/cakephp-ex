@@ -367,7 +367,7 @@ class MissingHelperException extends CakeException {
  */
 class MissingDatabaseException extends CakeException {
 
-	protected $_messageTemplate = 'Database connection "%s" could not be found."%s"';
+	protected $_messageTemplate = 'Database connection "%s" could not be found.';
 
 }
 
@@ -378,7 +378,7 @@ class MissingDatabaseException extends CakeException {
  */
 class MissingConnectionException extends CakeException {
 
-	protected $_messageTemplate = 'Database connection "%s" is missing, or could not be created.';
+	protected $_messageTemplate = 'Database connection "%s" is missing, or could not be created."%s"';
 
 	public function __construct($message, $code = 500) {
 		if (is_array($message)) {
